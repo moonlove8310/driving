@@ -6,10 +6,15 @@ if country == 'Taiwan':
         print('you can have a driving test')
     else:
         print('you can not have a driving test')
+elif country == 'Japan':
+    if age >= 18:
+        print('you can have a driving test')
+    else:
+        print('you can not have a driving test')
 elif country == 'USA':
     if age >= 16:
         print('you can have a driving test')
     else:
         print('you can not have a driving test')
 else:
-    print('this program supports Taiwan and USA only')
+    print('this program is only for Taiwan, Japan, and USA')
